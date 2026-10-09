@@ -1,23 +1,294 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script src="https://telegram.org/js/telegram-web-app.js"></script>
-<style>
-body{margin:0;background:#000;color:#fff;font-family:Arial;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;padding:20px;text-align:center}
-h1{color:gold;margin-bottom:20px}
-a{width:300px;padding:18px;margin:10px;border-radius:50px;text-decoration:none;font-weight:900;font-size:18px;display:block;text-align:center}
-.gold{background:gold;color:#000}
-.white{background:#fff;color:#000}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080a0d">
+  <meta name="description" content="XAUUSD Gold Market Analysis, trading ideas and education.">
+  <title>XAUUSD Market Analysis</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #080a0d;
+      color: #ffffff;
+      line-height: 1.7;
+    }
+
+    header {
+      padding: 22px 7%;
+      border-bottom: 1px solid #40331b;
+      text-align: center;
+    }
+
+    .logo {
+      color: #e4b84f;
+      font-size: 27px;
+      font-weight: bold;
+      letter-spacing: 3px;
+    }
+
+    .subtitle {
+      color: #ffffff;
+      font-size: 11px;
+      letter-spacing: 4px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px 65px;
+      background: radial-gradient(
+        ellipse at top,
+        #3a2b12 0%,
+        #080a0d 70%
+      );
+    }
+
+    .tag {
+      display: inline-block;
+      color: #ffe39a;
+      border: 1px solid #e4b84f;
+      border-radius: 30px;
+      padding: 7px 18px;
+      font-size: 12px;
+      letter-spacing: 2px;
+    }
+
+    h1 {
+      font-size: clamp(36px, 7vw, 65px);
+      line-height: 1.15;
+      margin: 24px 0 18px;
+    }
+
+    h1 span {
+      color: #e4b84f;
+    }
+
+    .description {
+      max-width: 650px;
+      margin: 0 auto;
+      color: #c5c5c5;
+      font-size: 16px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-top: 32px;
+    }
+
+    .btn {
+      display: inline-block;
+      min-width: 210px;
+      padding: 15px 25px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      filter: brightness(1.1);
+    }
+
+    .channel {
+      background: #168bd2;
+      color: #ffffff;
+    }
+
+    .vip {
+      background: #e4b84f;
+      color: #151008;
+    }
+
+    .section {
+      padding: 45px 7%;
+      text-align: center;
+    }
+
+    .section h2 {
+      color: #e4b84f;
+      font-size: 28px;
+      margin-bottom: 12px;
+    }
+
+    .section p {
+      color: #b8bbc2;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: #121417;
+      border: 1px solid #40331b;
+      border-radius: 14px;
+      padding: 25px 18px;
+    }
+
+    .card .icon {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      color: #ffe39a;
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      font-size: 14px;
+    }
+
+    .risk {
+      padding: 24px 7%;
+      border-top: 1px solid #302719;
+      color: #999999;
+      font-size: 12px;
+      text-align: center;
+    }
+
+    footer {
+      padding: 20px;
+      text-align: center;
+      color: #777777;
+      font-size: 12px;
+    }
+
+    @media (max-width: 650px) {
+      .hero {
+        padding-top: 55px;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      .btn {
+        width: 100%;
+        max-width: 320px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-<h1>XAUUSD BUY</h1>
-<a class="gold" href="https://t.me/+JibunAxNzp00NWRk">FREE SIGNALS</a>
-<a class="white" href="https://t.me/+JibunAxNzp00NWRk">JOIN VIP SIGNAL</a>
-<script>
-let tg=window.Telegram.WebApp;tg.ready();tg.expand();
-</script>
+
+  <header>
+    <div class="logo">XAUUSD</div>
+    <div class="subtitle">GOLD MARKET ANALYSIS</div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="tag">GOLD · FOREX · XAUUSD</div>
+
+      <h1>
+        GOLD MARKET<br>
+        <span>ANALYSIS</span>
+      </h1>
+
+      <p class="description">
+        Explore Gold market analysis, trading ideas,
+        important price levels and educational content.
+        Stay informed and always manage your trading risk.
+      </p>
+
+      <div class="buttons">
+
+        <!-- JOIN CHANNEL BUTTON -->
+        <a
+          class="btn channel"
+          href="https://t.me/+Zj-0xJY97xZkY2Vk"
+          target="_blank"
+          rel="noopener noreferrer">
+          ➤ JOIN CHANNEL
+        </a>
+
+        <!-- JOIN VIP BUTTON: opens your Telegram bot -->
+        <a
+          class="btn vip"
+          href="https://t.me/XAUUSDBUY1BOT"
+          target="_blank"
+          rel="noopener noreferrer">
+          ★ JOIN VIP
+        </a>
+
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>What We Share</h2>
+
+      <p>
+        Gold market information and educational content
+        to support your own market research.
+      </p>
+
+      <div class="cards">
+
+        <div class="card">
+          <div class="icon">📊</div>
+          <h3>Market Analysis</h3>
+          <p>
+            XAUUSD chart observations and important
+            market levels.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="icon">🎯</div>
+          <h3>Trading Ideas</h3>
+          <p>
+            Gold trading setups and market ideas
+            for your own review.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="icon">📘</div>
+          <h3>Education</h3>
+          <p>
+            Learn about trading discipline,
+            chart analysis and risk management.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <div class="risk">
+    Risk Disclosure: Forex and CFD trading involve
+    significant financial risk. Losses are possible.
+    This website provides informational and educational
+    content only, not financial advice. No profits
+    or trading outcomes are guaranteed.
+  </div>
+
+  <footer>
+    © 2026 XAUUSD Market Analysis
+  </footer>
+
 </body>
 </html>
